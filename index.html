@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library ctf game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        .material-icons {vertical-align:-14%}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Library Research CTF Game</h1>
+        <div id="intro">
+            <p>This is the library research <strong>capture the flag</strong> (ctf) game. The goal of this game is to introduce you to the basics of library research and show you simple research skills you will need to successfully complete a research project, like a term paper, essay, presentation, or speech.</p>
+            <p>The game consists of five levels. Each <strong>level</strong> consists of a <strong>questionnaire</strong> and an <strong>exercise</strong>. Each level includes a <strong>walkthrough</strong>. The walkthrough contains all the materials you will need to answer all of the questions in the questionnaire, as well as instructions on how to complete the exercise in each level. Completing the exercise successfully will trigger a <strong>flag</strong>. Once the flag is triggered, you will copy it and “capture” it by pasting it in the <strong>flag box</strong>.</p> 
+            <p>The game will end when you have answered all the questions and captured all the flags. As a last step, you will copy the last flag and send it to your instructor in an email. This will tell your instructor you have completed the game successfully.</p> 
+            <p>Click Level 1 and open its walkthrough to start the game.</p> 
+
+        </div>
+    </header>
+    <div class="section" id="section_1">
+        <div class="section_header" id="section1_header" onclick="showSectionBody('section1_body')">
+            <i class="material-icons w3-xxxlarge">engineering</i><h2>Level 1: the research process</h2> ................<a href="walkthroughs/walkthrough_research_process.pdf" target="_blank"><i class="material-icons w3-xxxlarge">download</i>Walkthrough</a>
+        </div>
+        <div id="section1_body">
+            <div class="question" id="question_1_1">
+                <h3>Question 1.1</h3>
+                <p>From the Latin <i>procedere</i> or to move forward, the word <input type="text" name="answer_1_1" id="answer_1_1" placeholder="******s"> means a series of actions or operations conducing to an end. <button onclick="checkAnswer('answer_1_1', -309518737, 'answer_check_1_1')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_1_1"></i></p>
+            </div>
+            <div class="question" id="question_1_2">
+                <h3>Question 1.2</h3>
+                <p>If we were to break the work of doing research for a paper into steps leading to the successful completion of our class project, we would then call it the <input type="text" name="answer_1_2" id="answer_1_2" placeholder="******** ******s">. <button onclick="checkAnswer('answer_1_2', 1290186986, 'answer_check_1_2')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_1_2"></i></p>
+            </div>
+            <div class="question" id="question_1_3">
+                <h3>Question 1.3</h3>
+                <p>All assignments come with a specific <input type="text" name="answer_1_3" id="answer_1_3" placeholder="*** ***e">. This is the date when the completed project is supposed to be turned in to the instructor. <button onclick="checkAnswer('answer_1_3', 1870262874, 'answer_check_1_3')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_1_2"></i></p>
+            </div>
+            <div class="question" id="question_1_4">
+                <h3>Question 1.4</h3>
+                <p>In general, there are two types of essays: <input type="text" name="answer_1_4" id="answer_1_4" placeholder="*******c"> and argumentative. <button onclick="checkAnswer('answer_1_4', -1024444787, 'answer_check_1_4')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_1_4"></i></p>
+            </div>
+            <div class="question" id="question_1_5">
+                <h3>Question 1.5</h3>
+                <p>Most essays are written using a citation style. If you are taking a writing class, you will likely use the Modern Language Association citation style or <input type="text" name="answer_1_5" id="answer_1_5" placeholder="**A">. <button onclick="checkAnswer('answer_1_5', 108194, 'answer_check_1_5')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_1_5"></i></p>
+            </div>
+            <div class="exercise">
+                <h3>Exercise 1</h3>
+                <p>Paste the MLA citation from the Merriam Webster Dictionary here:</p>
+                <input type="text" name="exercise_1" id="exercise_1" size="100"> <button onclick="checkExercise1('exercise_1')">Submit</button>
+                <p class="flag" id="flag_1"></p>
+                <p>Copy this flag and paste it in the flag box to capture it</p>
+                <label for="paste_flag1"><b>Flag box</b></label>
+                <input type="text" name="paste_flag1" id="paste_flag1" size="35"> <button onclick="captureFlag('paste_flag1', 'flag_capt_1')">Submit</button>
+                <p id="flag_capt_1"></p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section_2">
+        <div class="section_header" id="section2_header" onclick="showSectionBody('section2_body')">
+            <i class="material-icons w3-xxxlarge">key</i><h2>Level 2: develop a research topic and key concepts</h2> ................<a href="walkthroughs/walkthrough_topic_keywords.pdf" target="_blank"><i class="material-icons w3-xxxlarge">download</i>Walkthrough</a>
+        </div>
+        <div id="section2_body">
+            <div class="question" id="question_2_1">
+                <h3>Question 2.1</h3>
+                <p>Coming up with a research topic for an essay or a school assignment is perhaps the <input type="text" name="answer_2_1" id="answer_2_1" placeholder="**** ********t"> part of the research process. <button onclick="checkAnswer('answer_2_1', 1504849953, 'answer_check_2_1')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_2_1"></i></p>
+            </div>
+            <div class="question" id="question_2_2">
+                <h3>Question 2.2</h3>
+                <p>The first step in the process of developing a topic for research is to come up with an initial <input type="text" name="answer_2_2" id="answer_2_2" placeholder="***** ****c">. <button onclick="checkAnswer('answer_2_2', 1432352273, 'answer_check_2_2')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_2_2"></i></p>
+            </div>
+            <div class="question" id="question_2_3">
+                <h3>Question 2.3</h3>
+                <p>The secons step in developing a topic for research is to break down the initial broad topic into related <input type="text" name="answer_2_3" id="answer_2_3" placeholder="********s">. <button onclick="checkAnswer('answer_2_3', 554493796, 'answer_check_2_3')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_2_3"></i></p>
+            </div>
+            <div class="question" id="question_2_4">
+                <h3>Question 2.4</h3>
+                <p>The third step in the process is to pick a subtopic and turn it into a developed topic in the form of a <input type="text" name="answer_2_4" id="answer_2_4" placeholder="******** *******n">. <button onclick="checkAnswer('answer_2_4', 1180367051, 'answer_check_2_4')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_2_4"></i></p>
+            </div>
+            <div class="question" id="question_2_5">
+                <h3>Question 2.5</h3>
+                <p>The last step in the process is to review the chosen research question to make sure it's relevant, the right scope, and <input type="text" name="answer_2_5" id="answer_2_5" placeholder="**********g">. <button onclick="checkAnswer('answer_2_5', 1973397624, 'answer_check_2_5')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_2_5"></i></p>
+            </div>
+            <div class="question" id="question_2_6">
+                <h3>Question 2.6</h3>
+                <p>Once we have developed a topic into a research question, the next step is to look for basic information on the topic using <input type="text" name="answer_2_5" id="answer_2_6" placeholder="************s"> and dictionaries. <button onclick="checkAnswer('answer_2_6', 1364515731, 'answer_check_2_6')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_2_6"></i></p>
+            </div>
+            <div class="exercise">
+                <h3>Exercise 2</h3>
+                <p>Paste the Wikipedia page's wikidata item ID number here:</p>
+                <input type="text" name="exercise_2" id="exercise_2" size="15"> <button onclick="checkExercise2('exercise_2')">Submit</button>
+                <p class="flag" id="flag_2"></p>
+                <p>Copy this flag and paste it in the flag box to capture it</p>
+                <label for="paste_flag2"><b>Flag box</b></label>
+                <input type="text" name="paste_flag2" id="paste_flag2" size="35"> <button onclick="captureFlag('paste_flag2', 'flag_capt_2')">Submit</button>
+                <p id="flag_capt_2"></p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section_3">
+        <div class="section_header" id="section3_header" onclick="showSectionBody('section3_body')">
+            <i class="material-icons w3-xxxlarge">book</i><h2>Level 3: find books using the library catalog</h2> ................<a href="walkthroughs/walkthrough_find_books.pdf" target="_blank"><i class="material-icons w3-xxxlarge">download</i>Walkthrough</a>
+        </div>
+        <div id="section3_body">
+            <div class="question" id="question_3_1">
+                <h3>Question 3.1</h3>
+                <p>Once we have a developed topic, key concepts, and basic facts from encyclopedias and dictionaries, the next step is to look for more in-depth <input type="text" name="answer_3_1" id="answer_3_1" placeholder="**********n"> for our project. <button onclick="checkAnswer('answer_3_1', 1968600364, 'answer_check_3_1')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_3_1"></i></p>
+            </div>
+            <div class="question" id="question_3_2">
+                <h3>Question 3.2</h3>
+                <p>One of the sources we can use to get in-depth information is <input type="text" name="answer_3_2" id="answer_3_2" placeholder="******* ****s">. <button onclick="checkAnswer('answer_3_2', 1017029381, 'answer_check_3_2')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_3_2"></i></p>
+            </div>
+            <div class="question" id="question_3_3">
+                <h3>Question 3.3</h3>
+                <p>A book, or more specifically, a <input type="text" name="answer_3_3" id="answer_3_3" placeholder="********h">, is a publication that discusses a topic both in depth and breath, usually through a single author. <button onclick="checkAnswer('answer_3_3', -1442980789, 'answer_check_3_3')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_3_3"></i></p>
+            </div>
+            <div class="question" id="question_3_4">
+                <h3>Question 3.4</h3>
+                <p>We find books in the library using the library <input type="text" name="answer_3_4" id="answer_3_4" placeholder="******g">. <button onclick="checkAnswer('answer_3_4', 555704345, 'answer_check_3_4')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_3_4"></i></p>
+            </div>
+            <div class="question" id="question_3_5">
+                <h3>Question 3.5</h3>
+                <p>Every <input type="text" name="answer_3_5" id="answer_3_5" placeholder="******y"> has its own library catalog. <button onclick="checkAnswer('answer_3_5', 166208699, 'answer_check_3_5')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_3_5"></i></p>
+            </div>
+            <div class="exercise">
+                <h3>Exercise 3</h3>
+                <p>Paste the book's MLA (8th edition) citation from the library catalog here:</p>
+                <input type="text" name="exercise_3" id="exercise_3" size="100"> <button onclick="checkExercise3('exercise_3')">Submit</button>
+                <p class="flag" id="flag_3"></p>
+                <p>Copy this flag and paste it in the flag box to capture it</p>
+                <label for="paste_flag3"><b>Flag box</b></label>
+                <input type="text" name="paste_flag3" id="paste_flag3" size="35"> <button onclick="captureFlag('paste_flag3', 'flag_capt_3')">Submit</button>
+                <p id="flag_capt_3"></p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section_4">
+        <div class="section_header" id="section4_header" onclick="showSectionBody('section4_body')">
+            <i class="material-icons w3-xxxlarge">storage</i><h2>Level 4: find journal articles using the library databases</h2> ................<a href="walkthroughs/walkthrough_search_databases.pdf" target="_blank"><i class="material-icons w3-xxxlarge">download</i>Walkthrough</a>
+        </div>
+        <div id="section4_body">
+            <div class="question" id="question_4_1">
+                <h3>Question 4.1</h3>
+                <p>Technically, and in general, a <input type="text" name="answer_4_1" id="answer_4_1" placeholder="*******e"> is a large collection and storage of data, organized in tables in a way to make it searchable by computer. <button onclick="checkAnswer('answer_4_1', 1789464955, 'answer_check_4_1')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_4_1"></i></p>
+            </div>
+            <div class="question" id="question_4_2">
+                <h3>Question 4.2</h3>
+                <p><input type="text" name="answer_4_2" id="answer_4_2" placeholder="******* ********s"> are lists of articles published in academic journals. <button onclick="checkAnswer('answer_4_2', 666958131, 'answer_check_4_2')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_4_2"></i></p>
+            </div>
+            <div class="question" id="question_4_3">
+                <h3>Question 4.3</h3>
+                <p>While books cover a topic in depth and breath, articles from academic journals are <input type="text" name="answer_4_3" id="answer_4_3" placeholder="*****w"> in scope and covers a single event. <button onclick="checkAnswer('answer_4_3', -1052669861, 'answer_check_4_3')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_4_3"></i></p>
+            </div>
+            <div class="question" id="question_4_4">
+                <h3>Question 4.4</h3>
+                <p>Academic Search <input type="text" name="answer_4_4" id="answer_4_4" placeholder="*******e"> is a peer reviewed journal database. <button onclick="checkAnswer('answer_4_4', -599445191, 'answer_check_4_4')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_4_4"></i></p>
+            </div>
+            <div class="question" id="question_4_5">
+                <h3>Question 4.5</h3>
+                <p><input type="text" name="answer_4_5" id="answer_4_5" placeholder="**** *****w"> is a very specific method of evaluating an article's information, tends to happen more in scientific research, and it's rarely seen in news and opinion articles. <button onclick="checkAnswer('answer_4_5', -1419510826, 'answer_check_4_5')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_4_5"></i></p>
+            </div>
+            <div class="question" id="question_4_6">
+                <h3>Question 4.6</h3>
+                <p>An article's <input type="text" name="answer_4_6" id="answer_4_6" placeholder="*******t"> is a short summary of what the article says and it tells us right away if the article will be useful for our project. <button onclick="checkAnswer('answer_4_6', 1732898850, 'answer_check_4_6')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_4_6"></i></p>
+            </div>
+            <div class="exercise">
+                <h3>Exercise 4</h3>
+                <p>Paste the MLA citation for the database's journal article here:</p>
+                <input type="text" name="exercise_4" id="exercise_4" size="150"> <button onclick="checkExercise4('exercise_4')">Submit</button>
+                <p class="flag" id="flag_4"></p>
+                <p>Copy this flag and paste it in the flag box to capture it</p>
+                <label for="paste_flag4"><b>Flag box</b></label>
+                <input type="text" name="paste_flag4" id="paste_flag4" size="35"> <button onclick="captureFlag('paste_flag4', 'flag_capt_4')">Submit</button>
+                <p id="flag_capt_4"></p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section_5">
+        <div class="section_header" id="section5_header" onclick="showSectionBody('section5_body')">
+            <i class="material-icons w3-xxxlarge">language</i><h2>Level 5: find quality information on the web</h2> ................<a href="walkthroughs/walkthrough_ searching_theweb.pdf" target="_blank"><i class="material-icons w3-xxxlarge">download</i>Walkthrough</a>
+        </div>
+        <div id="section5_body">
+            <div class="question" id="question_5_1">
+                <h3>Question 5.1</h3>
+                <p>Even if we find it on the web, <input type="text" name="answer_5_1" id="answer_5_1" placeholder="********* **********n"> comes from books, journals, and other research publications. <button onclick="checkAnswer('answer_5_1', -109887617, 'answer_check_5_1')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_5_1"></i></p>
+            </div>
+            <div class="question" id="question_5_2">
+                <h3>Question 5.2</h3>
+                <p>Website's endings (.com, .edu, .net, .gov) are called <input type="text" name="answer_5_2" id="answer_5_2" placeholder="******s">. <button onclick="checkAnswer('answer_5_2', 1837548591, 'answer_check_5_2')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_5_2"></i></p>
+            </div>
+            <div class="question" id="question_5_3">
+                <h3>Question 5.3</h3>
+                <p>The <input type="text" name="answer_5_3" id="answer_5_3" placeholder="***e:"> feature allows us to search for informaton in websites with the same domain. <button onclick="checkAnswer('answer_5_3', 109447635, 'answer_check_5_3')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_5_3"></i></p>
+            </div>
+            <div class="question" id="question_5_4">
+                <h3>Question 5.4</h3>
+                <p>We can also use the site: feature to look for information within a <input type="text" name="answer_5_4" id="answer_5_4" placeholder="*****e"> website. <button onclick="checkAnswer('answer_5_4', -902265784, 'answer_check_5_4')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_5_4"></i></p>
+            </div>
+            <div class="question" id="question_5_5">
+                <h3>Question 5.5</h3>
+                <p>Another way to make sure we access scholarly and academic information is by using <input type="text" name="answer_5_5" id="answer_5_5" placeholder="****** ******r">. <button onclick="checkAnswer('answer_5_5', -2055096321, 'answer_check_5_5')">Submit</button> ...................<i class="material-icons w3-xlarge" id="answer_check_5_5"></i></p>
+            </div>
+            <div class="exercise">
+                <h3>Exercise 5</h3>
+                <p>Paste the MLA citation you found for the Google Scholar article here:</p>
+                <input type="text" name="exercise_5" id="exercise_5" size="100"> <button onclick="checkExercise5('exercise_5')">Submit</button>
+                <p class="flag" id="flag_5"></p>
+                <p>Copy this flag and paste it in the flag box to capture it</p>
+                <label for="paste_flag5"><b>Flag box</b></label>
+                <input type="text" name="paste_flag5" id="paste_flag5" size="35"> <button onclick="captureFlag('paste_flag5', 'flag_capt_5')">Submit</button>
+                <p id="flag_capt_5"></p>
+                <p id="end_game"></p>
+            </div>
+        </div>    
+    </div>
+    <footer>
+        <p>copyright © 2022 sergio lopez</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
